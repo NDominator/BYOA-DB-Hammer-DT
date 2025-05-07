@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DB Hammer Coaching Decision Tree</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="layout">
+        <nav id="question-nav" class="nav-menu">
+            <h2>Questions</h2>
+            <ul id="question-list"></ul>
+        </nav>
+        <div class="container">
+            <h1>DB Hammer Coaching Decision Tree</h1>
+            <div id="question-container">
+                <p id="current-question"></p>
+                <div class="button-container">
+                    <button id="yes-btn" class="btn">Yes</button>
+                    <button id="no-btn" class="btn">No</button>
+                </div>
+            </div>
+            <div id="result-container" class="hidden">
+                <h2>Recommended Focus</h2>
+                <p id="focus-area"></p>
+                <h3>Description</h3>
+                <p id="description"></p>
+                <h3>Recommendations</h3>
+                <ul id="recommendations"></ul>
+                <button id="restart-btn" class="btn">Start Over</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
